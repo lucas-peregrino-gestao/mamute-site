@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-mamute-dark: #003060;      /* Azul Marinho */
+  --color-mamute-medium: #003060;    /* Azul Marinho */
+  --color-mamute-light: #ffffff;     /* Branco */
+  --color-mamute-accent: #f36420;    /* Laranja Mamute */
+  --color-mamute-accent-hover: #d84f11;
+  --color-mamute-amber: #f59e0b;     /* Quality Amber */
+  --color-mamute-green: #25d366;     /* WhatsApp Green */
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom button pulses, animations, and shadows */
+@keyframes customPulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  50% { transform: scale(1.04); box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+}
+
+.whatsapp-pulse {
+  animation: customPulse 2s infinite ease-in-out;
+}
+
+/* Custom glassmorphism cards */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "Mamute Material de Construção",
+  "description": "Landing page profissional do Mamute Material de Construção na Vila Leopoldina, São Paulo. Materiais para reformas, ferramentas e reparos rápidos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
