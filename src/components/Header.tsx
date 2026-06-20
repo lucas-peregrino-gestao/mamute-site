@@ -163,7 +163,7 @@ export default function Header() {
             </button>
             <button
               onClick={() => handleScrollTo("gallery")}
-              className="font-sans font-medium text-sm text-gray-600 hover:text-mamute-accent transition-colors duration-200 cursor-pointer"
+              className="block w-full text-left font-sans font-medium text-sm py-2 px-3 hover:bg-gray-50 rounded-lg text-gray-700 hover:text-mamute-accent transition-all cursor-pointer"
             >
               Loja
             </button>
