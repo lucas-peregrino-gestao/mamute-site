@@ -6,17 +6,17 @@ interface GalleryPhoto {
 }
 
 // Troque os caminhos abaixo pelas fotos da loja.
-// Basta subir os arquivos em src/assets/images/ usando estes mesmos nomes
+// Basta colocar os arquivos em public/images/ usando estes mesmos nomes
 // (ou ajuste o "src" de cada item para o nome que você usar).
 const photos: GalleryPhoto[] = [
-  { src: "/src/assets/images/loja_foto_1.jpg", alt: "Fachada da loja Mamute Casa e Construção" },
-  { src: "/src/assets/images/loja_foto_2.jpg", alt: "Corredor interno com produtos organizados" },
-  { src: "/src/assets/images/loja_foto_3.jpg", alt: "Setor de tintas e acabamentos" },
-  { src: "/src/assets/images/loja_foto_4.jpg", alt: "Ferramentas em geral" },
-  { src: "/src/assets/images/loja_foto_5.jpg", alt: "Estoque de materiais de construção" },
-  { src: "/src/assets/images/loja_foto_6.jpg", alt: "Estacionamento gratuito da loja" },
-  { src: "/src/assets/images/loja_foto_7.jpg", alt: "Setor de materiais hidráulicos" },
-  { src: "/src/assets/images/loja_foto_8.jpg", alt: "Balcão de atendimento loja" },
+  { src: "/images/loja_foto_1.jpg", alt: "Fachada da loja Mamute Casa e Construção" },
+  { src: "/images/loja_foto_2.jpg", alt: "Corredor interno com produtos organizados" },
+  { src: "/images/loja_foto_3.jpg", alt: "Setor de tintas e acabamentos" },
+  { src: "/images/loja_foto_4.jpg", alt: "Ferramentas em geral" },
+  { src: "/images/loja_foto_5.jpg", alt: "Estoque de materiais de construção" },
+  { src: "/images/loja_foto_6.jpg", alt: "Estacionamento gratuito da loja" },
+  { src: "/images/loja_foto_7.jpg", alt: "Setor de materiais hidráulicos" },
+  { src: "/images/loja_foto_8.jpg", alt: "Balcão de atendimento loja" },
 ];
 
 export default function Gallery() {

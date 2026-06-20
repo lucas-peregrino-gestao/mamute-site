@@ -181,7 +181,7 @@ export default function Hero() {
             {/* Main Visual Image depicting high quality modern hardware store items / building theme */}
             <div className="relative h-64 sm:h-72 w-full">
               <img 
-                src="/src/assets/images/mamute_store_facade_1781975986919.jpg" 
+                src="/images/mamute_store_facade_1781975986919.jpg" 
                 alt="Mamute Casa e Construção Vila Leopoldina"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
