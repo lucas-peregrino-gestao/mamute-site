@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
@@ -170,6 +171,9 @@ export default function App() {
 
       {/* 4. Active floating conversion CTA */}
       <WhatsAppButton />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
