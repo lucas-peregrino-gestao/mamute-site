@@ -121,6 +121,7 @@ export default function App() {
                 href={whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-gtm-id="whatsapp_footer"
                 className="inline-flex items-center gap-2 bg-mamute-green hover:bg-emerald-600 text-white font-bold text-xs uppercase tracking-wide px-4 py-2.5 rounded-lg shadow-md transition-colors"
               >
                 <MessageSquare size={14} />
