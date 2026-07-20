@@ -47,6 +47,7 @@ export default function WhatsAppButton() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setShowTooltip(false)}
+              data-gtm-id="whatsapp_flutuante_tooltip"
               className="text-[10px] sm:text-xs font-bold bg-mamute-green text-white py-1 px-3 rounded-lg hover:bg-emerald-600 transition-colors"
             >
               Iniciar Chat
@@ -63,6 +64,7 @@ export default function WhatsAppButton() {
         href={whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
+        data-gtm-id="whatsapp_flutuante_principal"
         className="whatsapp-pulse flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 bg-mamute-green hover:bg-emerald-600 text-white rounded-full shadow-2xl transition-all duration-300 hover:scale-105"
         title="Chamar no WhatsApp do Mamute"
       >
