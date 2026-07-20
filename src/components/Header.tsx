@@ -121,6 +121,7 @@ export default function Header() {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
+              data-gtm-id="whatsapp_header_desktop"
               className="font-sans font-bold text-xs uppercase tracking-wider bg-mamute-green hover:bg-emerald-600 text-white px-5 py-2.5 rounded-lg shadow-md transition-all duration-200 flex items-center gap-2"
             >
               <MessageSquare size={15} />
@@ -185,6 +186,7 @@ export default function Header() {
                 href={whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-gtm-id="whatsapp_header_mobile"
                 className="w-full text-center py-2 px-3 sm:py-2.5 text-sm font-bold bg-mamute-green text-white rounded-lg shadow hover:bg-emerald-600 transition-all flex items-center justify-center gap-2"
               >
                 <MessageSquare size={15} />
