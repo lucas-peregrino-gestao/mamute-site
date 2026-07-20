@@ -123,6 +123,7 @@ export default function Features() {
             href="https://wa.me/551123642867?text=Oi%21+Preciso+saber+se+voc%C3%AAs+t%C3%AAm+materiais+para+retirar+agora."
             target="_blank"
             rel="noopener noreferrer"
+            data-gtm-id="whatsapp_estoque_banner"
             className="relative z-10 bg-mamute-accent hover:bg-mamute-accent-hover text-white font-sans font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl whitespace-nowrap active:scale-95 transition-all shadow-md shrink-0"
           >
             Consultar Estoque no WhatsApp
