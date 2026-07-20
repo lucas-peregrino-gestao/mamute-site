@@ -112,6 +112,7 @@ export default function Hero() {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
+              data-gtm-id="whatsapp_hero_principal"
               className="whatsapp-pulse inline-flex items-center justify-center space-x-3 bg-mamute-green hover:bg-emerald-600 active:scale-95 text-white font-sans font-bold text-base px-8 py-4 rounded-xl shadow-lg shadow-green-100 transition-all duration-200 group text-center"
             >
               <MessageSquare className="w-6 h-6 fill-current group-hover:scale-110 transition-transform" />
