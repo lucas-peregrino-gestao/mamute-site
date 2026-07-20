@@ -206,6 +206,7 @@ export default function Categories() {
                   href={getWhatsAppLink(cat.whatsappMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-gtm-id={`whatsapp_categoria_${cat.id}`}
                   className="w-full bg-mamute-dark hover:bg-mamute-accent text-white font-sans font-bold text-xs uppercase tracking-wider text-center py-3 px-4 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 group cursor-pointer"
                 >
                   <MessageSquare size={14} className="group-hover:scale-110 transition-transform" />
@@ -225,6 +226,7 @@ export default function Categories() {
             href={getWhatsAppLink("Olá! Preciso de um item que não vi na lista. Vocês trabalham com...")}
             target="_blank"
             rel="noopener noreferrer"
+            data-gtm-id="whatsapp_categorias_nao_encontrou"
             className="inline-flex items-center gap-1.5 mt-2.5 text-mamute-accent hover:text-mamute-accent-hover font-bold text-sm underline font-display transition-colors"
           >
             Chamar no WhatsApp (11) 2364-2867
